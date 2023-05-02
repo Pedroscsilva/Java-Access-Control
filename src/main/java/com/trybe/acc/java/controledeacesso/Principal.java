@@ -62,7 +62,7 @@ public class Principal {
   }
   
   /**
-   * Calcula a média de idades do usuário.
+   * Calcula a média de idades dos usuários.
    * 
    */
   public static void calculateAges(Hashtable<String, Integer> ages) {
