@@ -5,6 +5,7 @@ This is a simple Java project that runs on the terminal to control the accesses 
 To see it working, simple follow the commands below on your machine:
 
 ```bash
+$ mvn install
 $ cd src/main/java/com/trybe/acc/java/controledeacesso
 $ java Principal.java
 ```
