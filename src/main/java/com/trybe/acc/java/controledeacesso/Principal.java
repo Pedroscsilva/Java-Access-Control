@@ -31,7 +31,7 @@ public class Principal {
 
     do {
       System.out.print("Entre com o número correspondente à opção desejada:\n"
-          + "1 - Acessar o estabelecimento\n" + "2 - Finalizar sistema e mostar relatório");
+          + "1 - Acessar o estabelecimento\n" + "2 - Finalizar sistema e mostar relatório\n");
       userInput = scanner.nextShort();
       switch (userInput) {
         case 1:
@@ -90,6 +90,6 @@ public class Principal {
     System.out.println("adultas: " + decimalFormat.format((double) ages.get("adulto") * 100 / all));
     System.out
         .println("a partir de 50: " + decimalFormat.format((double) ages.get("idoso") * 100 / all));
-    System.out.print("\nTOTAL: " + ages.get("all"));
+    System.out.print("\nTOTAL: " + ages.get("all") + "\n");
   }
 }
