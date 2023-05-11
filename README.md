@@ -1,10 +1,19 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Java Access Control
+
+This is a simple Java project that runs on the terminal to control the accesses of users in a certain place.
+
+To see it working, simple follow the commands below on your machine:
+
+```bash
+$ mvn install
+$ cd src/main/java/com/trybe/acc/java/controledeacesso
+$ java Principal.java
+```
+
+You should be prompted with the following text:
+
+```bash
+Entre com o número correspondente à opção desejada:
+1 - Acessar o estabelecimento
+2 - Finalizar sistema e mostar relatório
+```
