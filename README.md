@@ -2,7 +2,7 @@
 
 This is a simple Java project that runs on the terminal to control the accesses of users in a certain place.
 
-To see it working, simple follow the commands below on your machine:
+To see it working, simply follow the commands below on your machine:
 
 ```bash
 $ mvn install
